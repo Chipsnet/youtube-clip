@@ -2,8 +2,14 @@
   "name": "youtube-clip",
   "version": "1.0.0",
   "description": "youtube downloader",
-  "main": "index.js",
+  "main": "./index.coffee",
   "repository": "https://github.com/Chipsnet/youtube-clip.git",
   "author": "Minato86 <doronomori660@outlook.jp>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "coffee index.coffee"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
