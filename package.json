@@ -1,0 +1,9 @@
+{
+  "name": "youtube-clip",
+  "version": "1.0.0",
+  "description": "youtube downloader",
+  "main": "index.js",
+  "repository": "https://github.com/Chipsnet/youtube-clip.git",
+  "author": "Minato86 <doronomori660@outlook.jp>",
+  "license": "MIT"
+}
