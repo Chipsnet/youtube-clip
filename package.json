@@ -10,6 +10,7 @@
     "start": "coffee index.coffee"
   },
   "dependencies": {
+    "ejs": "^3.0.2",
     "express": "^4.17.1"
   }
 }

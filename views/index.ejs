@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clip</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="top" class="container py-5">
+        <h1>YouTube Clip</h1>
+        <p>オープンソースで安全なYouTubeダウンローダ</p>
+    </section>
+    <section id="main" class="container pb-5">
+        <form action="post">
+            <div class="form-group">
+                <label for="youtube-input-form">YouTube URL</label>
+                <input type="url" class="form-control" id="youtube-input-form" placeholder="URLを入力してください">
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="select-format" id="mp3" checked>
+                <label class="form-check-label">
+                    MP3 (音声)
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="select-format" id="mp4">
+                <label class="form-check-label">
+                    MP4 (音声 + 動画)
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary my-3">Clip!</button>
+        </form>
+    </section>
+    <hr>
+    <footer class="container py-3">
+        2020 TeamOpenWorld <br>
+        Powerd by YouTube Clip. This is OpenSource Project. <br>
+        <a href="">View on Github</a>
+    </footer>
+</body>
+
+</html>
