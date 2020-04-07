@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+html(lang="ja")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title YouTube Clip
+
+        link(rel="stylesheet", href="/assets/main.css")
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap")
+    body
+        include header.pug
+        section#main.pb-5: .container
+            form(action="download", method="post")
+                .form-group
+                    label(for="youtube-input-form") YouTube URL
+                    input(type="url", name="url", placeholder="URLを入力してください").form-control
+                .form-select
+                    label(for="select") 保存形式
+                    select.form-control
+                        option(value="1") MP3 (音声)
+                        option(value="2") MP4 (動画 + 音声)
+                button(type="submit").btn.btn-primary.my-3 Clip!
+        include footer.pug
