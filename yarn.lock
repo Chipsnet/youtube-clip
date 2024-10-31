@@ -80,9 +80,9 @@ body-parser@1.20.3:
     unpipe "1.0.0"
 
 body-parser@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-2.0.1.tgz#979de4a43468c5624403457fd6d45f797faffbaf"
-  integrity sha512-PagxbjvuPH6tv0f/kdVbFGcb79D236SLcDTs6DrQ7GizJ88S1UWP4nMXFEo/I4fdhGRGabvFfFjVGm3M7U8JwA==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-2.0.2.tgz#52a90ca70bfafae03210b5b998e4ffcc3ecaecae"
+  integrity sha512-SNMk0OONlQ01uk8EPeiBvTW7W4ovpL5b1O3t1sjpPgfxOQ6BqQJ6XjxinDPR79Z6HdcD5zBBwr5ssiTlgdNztQ==
   dependencies:
     bytes "3.1.2"
     content-type "~1.0.5"
@@ -94,7 +94,6 @@ body-parser@^2.0.0:
     qs "6.13.0"
     raw-body "^3.0.0"
     type-is "~1.6.18"
-    unpipe "1.0.0"
 
 bytes@3.1.2:
   version "3.1.2"
